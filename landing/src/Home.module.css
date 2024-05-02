@@ -31,8 +31,8 @@
   position: absolute;
   border-radius: 100cap;
   text-align: center;
-  font-size: 45px;
-  margin-top: 3px;
+  font-size: 32px;
+  margin-top: 10px;
   background-color: #BEB9B9;
   box-shadow: 0 0 0 0;
   border: 0 none;
@@ -53,9 +53,25 @@
   float: right; 
   transition: all 0.3s ease;
   transform: scale(1.1);
+  
 
 }
 .wrap_pesquisar button:hover{
   opacity: 1.0;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+@media screen and (max-width: 1080px){
+  
+}
+@media screen and (max-width: 720px){
+
+  .wrap_home{
+    background-size: 150px;
+
+  }
+  .wrap_pesquisar input{
+    font-size: 45px;
+    margin-top: 3px;
+  }
+
+} 
