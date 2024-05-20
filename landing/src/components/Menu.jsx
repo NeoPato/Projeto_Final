@@ -4,7 +4,8 @@ export default function Menu(){
     return (
         <div className={style["wrap-menu"]}>
 
-                <img src="src\assets\img\logo_alferi_hotel.svg" alt="Logo" />     
+                <img src="src\assets\img\logo_alferi_hotel_icone.svg" alt="Logo" />     
+                <h2>Alferi Hotel</h2>
                 <a href="/perfil">
                     <div className={style["wrap_img"]}>
                         <img src="src\assets\img\do-utilizador.png" alt="perfil"/>

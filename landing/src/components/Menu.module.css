@@ -5,14 +5,19 @@
   padding: 10px 10px;
   overflow: hidden;
   background-color: #333;
-  opacity: 0.4;
+  opacity: 0.3;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   transition: all 0.5s ease;
-  
+  justify-content: center;
+}
+.wrap-menu h2{
+  float: left;
+  color: white;
+  font-size: 25px;
+  margin: 15px 10px;
 }
 .wrap-menu img{
   height: 60px;
-  padding-left: 30px;
   float: left;
   max-height: 100%;
 }
@@ -23,7 +28,7 @@
   color: white;
   text-align: center;
   text-decoration: none;
-  padding: 10px 10px;
+  padding: 10px 25px;
   margin-right: 15px;
   border-right:1px solid #bbb;
   border-radius: 20px;
@@ -31,13 +36,13 @@
   float: right;
   transition: all 0.3s ease;
   gap: 20px;
-  
+
 }
 .wrap-menu a:hover{
     background-color: lightslategray;
     color:  #111;
     opacity: 1.0;
-    transform: scale(1.1);
+    transform: scale(1.2);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .wrap-menu:hover{
@@ -46,15 +51,14 @@
 }
 
 .wrap_img {
-  display: flex; 
-  justify-content: center; 
+  display: flex;
   align-items: center;
-  width: 40px; 
-  height: 25px; 
+  justify-content: center;
+  width: 5px; 
+  height: 25px;
 }
 
 .wrap_img img {
-  max-width: 200%; 
-  max-height: 200%; 
+  max-height: 250%;
   opacity: 1.0;
 }
