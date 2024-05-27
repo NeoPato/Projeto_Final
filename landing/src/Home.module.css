@@ -1,4 +1,4 @@
-.wrap_home{
+.home{
   background-image: url(./assets/img/Background_home.png);
   background-repeat: no-repeat;
   background-size: auto;
@@ -7,7 +7,10 @@
   height: 100vh;
 }
 
-.wrap_pesquisar{
+.home h1, h4{
+  color:white;
+}
+.pesquisar{
   border-style: inset;
   position:absolute;
   background-color: #BEB9B9;
@@ -26,7 +29,7 @@
 
 }
 
-.wrap_pesquisar input{
+.pesquisar input{
   width: 90%;
   position: absolute;
   border-radius: 100cap;
@@ -40,7 +43,7 @@
   
 }
 
-.wrap_pesquisar button {
+.pesquisar button {
   display: flex; 
   background-image: url(./assets/img/pesquisa-de-lupa.png);
   background-size: 30px;
@@ -56,7 +59,7 @@
   
 
 }
-.wrap_pesquisar button:hover{
+.pesquisar button:hover{
   opacity: 1.0;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -65,11 +68,11 @@
 }
 @media screen and (max-width: 720px){
 
-  .wrap_home{
+  .home{
     background-size: 150px;
 
   }
-  .wrap_pesquisar input{
+  .pesquisar input{
     font-size: 45px;
     margin-top: 3px;
   }

@@ -7,10 +7,12 @@ import Menu from './components/Menu';
 export default function Home() {
   return(
     <>
-      <div className={style["wrap_home"]}>
+      <div className={style["home"]}>
           <Menu/>
           <div>
-            <div className={style["wrap_pesquisar"]}>
+            <h4>Aproveite suas férias com os hotéis Alferi</h4>
+            <h1>deixe-nos planejar suas férias perfeitas</h1>
+            <div className={style["pesquisar"]}>
               <input type="text" id='pesquisar' placeholder='Procure a cidade desejada aqui'/>
               <button> </button>
             </div>
